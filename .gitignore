@@ -1,0 +1,18 @@
+# Python compiled files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# PyCharm settings
+.idea/
+
+# Environment variables / Secrets
+.env
+
+# Local configuration (if applicable)
+config.py
+
