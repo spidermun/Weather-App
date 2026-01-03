@@ -11,11 +11,18 @@ def main():
 
         if report is not None:
            temp = report['main']['temp']
+           if temp > 10:
+               emotka = "☀️"
+           else:
+               emotka = "️🌥️"
+
            desc = report['weather'][0]['description']
+
+
 
            print(f"-------- POGODA DLA: {miasto.upper()} --------")
            print(f"Temperatura: {temp}°C")
-           print(f"Opis: {desc}")
+           print(f"Opis: {emotka} {desc}")
            print("------------------------------------------")
 
 
